@@ -5,9 +5,9 @@ echo "Setting up nagios3"
 
 cd /etc/nagios3
 rm -fR conf.d
-ln -s /vagrant/nagios/conf.d conf.d
+cp -R /vagrant/nagios/conf.d conf.d
 rm nagios.cfg
-ln -s /vagrant/nagios/nagios.cfg nagios.cfg
+cp /vagrant/nagios/nagios.cfg nagios.cfg
 rm htpasswd.users
 cp /vagrant/nagios/htpasswd.users .
 chown root:root htpasswd.users

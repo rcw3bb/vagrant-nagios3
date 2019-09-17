@@ -6,12 +6,12 @@
 ### To start, execute the following batch:
 
 ```
-start.bat
+nagios-start.bat
 ```
 ### To stop, execute the following batch:
 
 ```
-stop.bat
+nagios-stop.bat
 ```
 ### Accessing Nagios
 
